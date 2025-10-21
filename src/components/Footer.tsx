@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Github, Twitter, Linkedin } from "lucide-react";
+import { Mail, MapPin, Github, Twitter, Linkedin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -63,12 +63,8 @@ export function Footer() {
                 <span>hello@ingvericat.com</span>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
-                <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
-              </div>
-              <div className="flex items-center space-x-3 text-muted-foreground">
                 <MapPin className="w-4 h-4" />
-                <span>San Francisco, CA</span>
+                <span>54 State Street, Ste 804 #13648,<br/>Albany, New York 12207 US</span>
               </div>
             </div>
           </div>
