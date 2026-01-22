@@ -5,13 +5,13 @@ import { Portfolio } from "@/components/Portfolio";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
+  // <Portfolio />
   return (
     <div className="min-h-screen">
       <Header />
       <main>
         <Hero />
         <About />
-        <Portfolio />
       </main>
       <Footer />
     </div>
