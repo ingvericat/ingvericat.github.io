@@ -1,0 +1,98 @@
+import React from 'react';
+
+export default function PrivacyPolicy() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+      <div className="container mx-auto px-4 py-16 max-w-4xl">
+        <h1 className="text-4xl font-bold mb-8 text-gray-900">Privacy Policy</h1>
+        
+        <div className="prose prose-lg max-w-none">
+          <p className="text-gray-600 mb-6">
+            <strong>Effective Date:</strong> January 22, 2026
+          </p>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800">1. Introduction</h2>
+            <p className="text-gray-700 mb-4">
+              Welcome to Ingvericat. We respect your privacy and are committed to protecting your personal data. 
+              This privacy policy will inform you about how we look after your personal data when you visit our 
+              website and tell you about your privacy rights and how the law protects you.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800">2. Information We Collect</h2>
+            <p className="text-gray-700 mb-4">
+              We may collect, use, store and transfer different kinds of personal data about you:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li><strong>Identity Data:</strong> includes first name, last name, username or similar identifier.</li>
+              <li><strong>Contact Data:</strong> includes email address and telephone numbers.</li>
+              <li><strong>Technical Data:</strong> includes internet protocol (IP) address, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform.</li>
+              <li><strong>Usage Data:</strong> includes information about how you use our website and services.</li>
+            </ul>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800">3. How We Use Your Information</h2>
+            <p className="text-gray-700 mb-4">
+              We will only use your personal data when the law allows us to. Most commonly, we will use your 
+              personal data in the following circumstances:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>To provide and maintain our services</li>
+              <li>To notify you about changes to our services</li>
+              <li>To provide customer support</li>
+              <li>To gather analysis or valuable information so that we can improve our services</li>
+              <li>To monitor the usage of our services</li>
+            </ul>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800">4. Data Security</h2>
+            <p className="text-gray-700 mb-4">
+              We have put in place appropriate security measures to prevent your personal data from being 
+              accidentally lost, used or accessed in an unauthorized way, altered or disclosed. In addition, 
+              we limit access to your personal data to those employees, agents, contractors and other third 
+              parties who have a business need to know.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800">5. Your Legal Rights</h2>
+            <p className="text-gray-700 mb-4">
+              Under certain circumstances, you have rights under data protection laws in relation to your personal data, including the right to:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Request access to your personal data</li>
+              <li>Request correction of your personal data</li>
+              <li>Request erasure of your personal data</li>
+              <li>Object to processing of your personal data</li>
+              <li>Request restriction of processing your personal data</li>
+              <li>Request transfer of your personal data</li>
+            </ul>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800">6. Cookies</h2>
+            <p className="text-gray-700 mb-4">
+              Our website uses cookies to distinguish you from other users of our website. This helps us to 
+              provide you with a good experience when you browse our website and also allows us to improve our site. 
+              For detailed information on the cookies we use and the purposes for which we use them, see our Cookie Policy.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800">7. Contact Us</h2>
+            <p className="text-gray-700 mb-4">
+              If you have any questions about this Privacy Policy, please contact us at:
+            </p>
+            <p className="text-gray-700">
+              Email: <a href="mailto:privacy@ingvericat.com" className="text-blue-600 hover:underline">privacy@ingvericat.com</a>
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+}

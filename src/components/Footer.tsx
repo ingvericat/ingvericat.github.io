@@ -51,6 +51,7 @@ export function Footer() {
               <li><a href="#home" className="hover:text-foreground transition-colors">Home</a></li>
               <li><a href="#about" className="hover:text-foreground transition-colors">About</a></li>
               <li><a href="#portfolio" className="hover:text-foreground transition-colors">Portfolio</a></li>
+              <li><a href="/careers" className="hover:text-foreground transition-colors">Careers</a></li>
             </ul>
           </div>
 
@@ -76,9 +77,9 @@ export function Footer() {
             © 2024 Ingveri Cat. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-foreground transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-foreground transition-colors">Cookie Policy</a>
+            <a href="/privacy-policy" className="hover:text-foreground transition-colors">Privacy Policy</a>
+            <a href="/terms-of-service" className="hover:text-foreground transition-colors">Terms of Service</a>
+            <a href="/cookie-policy" className="hover:text-foreground transition-colors">Cookie Policy</a>
           </div>
         </div>
       </div>
